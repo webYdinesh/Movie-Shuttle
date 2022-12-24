@@ -1,0 +1,82 @@
+.logo>a>img {
+    width: 150px;
+}
+
+header {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side-navbar {
+    gap: 2rem;
+}
+
+li>a {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+a:hover {
+    color: #ded9d9;
+
+}
+
+ul {
+    gap: 2rem;
+}
+
+.button-container {
+    gap: 2rem;
+}
+
+.search-field {
+    gap: 3.5rem;
+}
+
+.active {
+    background-color: #5d15f5;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.search-field form input {
+    font-size: 1.9rem;
+    padding: 0.5rem 1rem;
+    padding-left: 3.9rem;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    transition: all 300ms linear;
+}
+
+.search-field form input:focus {
+    border: 1px solid #5d15f5;
+}
+
+form {
+    position: relative;
+}
+
+#icon {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    fill: rgb(187, 187, 187);
+    transition: all 300ms linear;
+
+}
+
+.search-field form input:focus~#icon {
+    fill: #5d15f5;
+
+}
+
+
